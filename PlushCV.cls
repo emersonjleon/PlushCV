@@ -184,6 +184,30 @@ Last Updated on \today
 \vspace{-15pt}
 }
 
+%%%%%%%%%%%%%%%%%%
+\newcommand{\mynamesection}[4]{
+\RaggedRight{
+\color{title}
+\fontsize{50pt}{60pt}
+\fontspec[Path = \pathtitlefont]{\firstnamefont}\selectfont #1 
+\fontspec[Path = \pathtitlefont]{\secondnamefont}\selectfont #2
+} \\[5pt]
+
+\noindent\makebox[\linewidth]{\color{title}\rule{\paperwidth}{0pt}}
+\vspace{-15pt}
+
+\RaggedRight{\fontspec[Path = \pathmonofont]{\monofont}\fontsize{14pt}{14pt}\selectfont #3}
+
+\noindent\makebox[\linewidth]{\color{title}\rule{\paperwidth}{0pt}}
+\vspace{-15pt}
+
+\RaggedRight{\fontspec[Path = \pathmonofont]{\monofont}\fontsize{10pt}{14pt}\selectfont #4}
+
+\noindent\makebox[\linewidth]{\color{title}\rule{\paperwidth}{0pt}}
+\vspace{-15pt}
+}
+
+
 % Section separators
 \usepackage{titlesec}
 \titlespacing{\section}{0pt}{5pt}{5pt}
@@ -219,6 +243,18 @@ Last Updated on \today
 \includegraphics[scale=0.23,trim={0cm 1.25cm -0.4cm 0cm}]{icons/main/mail.png}{#4}\hspace{0.3cm}
 \includegraphics[scale=0.23,trim={0cm 1.25cm -0.4cm 0cm}]{icons/main/phone.png}{#5}
 }\parbox{\wd0}{\box0}\endgroup}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%My Contact Line
+\newcommand{\mycontactline}[5]{\begingroup
+\setbox0=\hbox{
+\includegraphics[scale=0.17,trim={1.4cm 1.25cm -0.4cm 0cm}]{icons/main/home.png}{#1}\hspace{0.17cm}
+%\includegraphics[scale=0.2,trim={0cm 1.25cm -0.4cm 0cm}]{icons/main/github.png}{#2}\hspace{0.3cm}
+\includegraphics[scale=0.17,trim={0cm 1.25cm -0.4cm 0cm}]{icons/main/linkedin.png}{#3}\hspace{0.17cm}
+\includegraphics[scale=0.17,trim={0cm 1.25cm -0.4cm 0cm}]{icons/main/mail.png}{#4}\hspace{0.17cm}
+\includegraphics[scale=0.17,trim={0cm 1.25cm -0.4cm 0cm}]{icons/main/phone.png}{#5}
+}\parbox{\wd0}{\box0}\endgroup}
+
 
 %Inline Centered Logo
 \newcommand{\vcenteredinclude}[2]{\begingroup
