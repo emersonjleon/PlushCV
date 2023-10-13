@@ -1,0 +1,335 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PlushCV - One Page Two Column Resume
+% LaTeX Template
+% Version 1.0 (11/28/2021)
+%
+% Author:
+% Shubham Mazumder (http://mazumder.me)
+%
+% Hacked together from:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add more icon options 
+% 4. Fix hacky left alignment on contact line
+% 5. Remove Hacky fix for awkward extra vertical space
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the vertical limit.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Icons:
+%%Main: https://icons8.com/icons/carbon-copy
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{plushcv}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Emerson Le\'on}{}{Mathematician/ Software Developer   }{\mycontactline{\href{https://emersonjleon.pythonanywhere.com/}{emersonjleon.pythonanywhere.com}}{\href{https://www.github.com/emersonjleon}{emersonjleon}}{\href{https://www.linkedin.com/in/emersonjleon}{emersonjleon}}{\href{mailto:emersonleon@gmail.com}{emersonleon@gmail.com}}{\href{tel:+4915754767896}{+4915754767896}}}
+
+%\namesection{}{Emerson Le\'on}{Mathematician doing Programming, Visualization and Data Science}{\mycontactline{\href{https://emersonjleon.pythonanywhere.com/}{emersonjleon.pythonanywhere.com}}{\href{https://www.linkedin.com/in/emersonjleon}{emersonjleon}}{\href{mailto:emersonleon@gmail.com}{emersonleon@gmail.com}}{\href{tel:+4915754767896}{+49 157 54767896}}}
+
+
+% \namesection{Firstname}{Lastname}{Full Stack Software Engineer}{\contactline{\href{https://www.mazumder.me}{mazumder.me}}{\href{https://www.github.com/sansquoi}{sansquoi}}{\href{https://www.linkedin.com/mazumders}{mazumders}}{\href{mailto:shubham.mazumder@gmail.com}{first.last@email.com}}{\href{tel:+1999999999}{9999999999}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.70\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{El Cyborg Cham\'an}
+\descript{| Software Development}
+\location{June 2022 – July 2023| Bogotá , Colombia}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\sectionsep
+\item Project joint  with Tercer Piso Danza, with a grant from \emph{Idartes} for art, science and technology, where we created workshops, tutorials and a final exposition. 
+\item I created for them a web-page powered with artificial intelligence that generate stories and images from different input, using GPT-3 and Stable Diffusion technology from openAI \location{\href{https://elcyborgchaman.pythonanywhere.com}{https://elcyborgchaman.pythonanywhere.com}}
+\item Skills and tools: web development· arts and science · creativity · python · openAI · flask · django · javaScript  · artificial intelligence · three.js  ·  sqlAlchemy · html · css% · relational databases 
+\end{tightemize}
+\sectionsep
+
+%% \descript{ Countryside Experience}
+%% \location{July  2017 - Apr 2022| Tena, Cundinamarca, Colombia}
+
+\sectionsep
+\runsubsection{Los Andes University}
+\descript{| Postdoctoral Researcher | Math Professor}
+\location{July 2015 – June 2017 | Bogotá, Colombia}
+\begin{tightemize}
+  \sectionsep
+\item Research in discrete geometry, polytopes, Ehrhart theory, combinatorics
+\item Teaching: Linear algebra, differential, integral and multivariate calculus, discrete Geometry
+%% \item Organizing: Ehrhart theory seminar
+\item Skills and tools: discrete geometry · computational geometry · teaching · education  · linux · web development  · html · mathematical modeling · sagemath% · julia 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Colombian Mathematical Olympiad}
+\descript{| Organizing Committee | Teacher }
+\location{Jun 2002 – Dec 2006 | Bogotá, Colombia}
+\begin{tightemize}
+  \sectionsep
+\item Coorganizer of the yearly math competitions for the whole country
+\item Helped to prepare talented Colombian children in math problem solving to participate in international competitions
+  
+\item Skills and tools: math teaching  · event organizing  · problem solving  · design of new math problems · creativity · algebra  · number theory  · geometry  · combinatorics
+\end{tightemize}
+\sectionsep
+
+
+%% \runsubsection{Chess Engine}
+%% \descript{| C++}
+%% \location{2018}
+%% \begin{tightemize}
+%% \item \emph{Combinatorial Relationship Between Finite Fields and Fixed Points of Functions Going Up and Down}, Emerson Le\'on, Juli\'an Pulido,  \url{https://arxiv.org/abs/2111.13745}), preprint, 2021
+%% \end{tightemize}
+%% \sectionsep
+
+%% \runsubsection{Speech-enabled Chatbot}
+%% \descript{| C\#, Microsoft Bot Framework}
+%% \location{2018}
+%% \begin{tightemize}
+%% \item \emph{Binomial Inequalities of Chromatic, Flow, and Ehrhart Polynomials},  Matthias Beck, Emerson Le\'on, {Discrete \& Computational Geometry}, 2021, 
+%% {\bf 66}, no. 2, 464–474, 2021. \href{https://arxiv.org/abs/1804.00208}{\texttt{https://arxiv.org/abs/1804.00208}}.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Education} 
+\runsubsection{Freie Universität, Berlin}
+\descript{| Doctor rer. nat. Mathematics}
+\location{Jan 2007 - Feb 2015 |
+ advisor: Günter M. Ziegler }
+\begin{tightemize}
+\item Research in discrete geometry, mathematical modeling, topological spaces, moduli spaces, multidimensional geometry.
+\item In the thesis we defined and analyzed a mathematical object that parameterized all possible ways to divide the d-dimensional space into n convex regions.
+  \item Scholarship Phase I and Phase II by Berlin Mathematical School.\end{tightemize}
+\sectionsep
+
+\runsubsection{Universidad Nacional de Colombia, Bogotá}
+\descript{| Bachelor's in Mathematics}
+\location{Jul 2001 - Sep 2006}
+\begin{tightemize}
+  %\item T
+\item Tuition reimbursement due to grades on the top 2 each semester.\\
+\end{tightemize}
+
+%\location{ Cum. GPA: 3.7 / 4.0 }
+%% \sectionsep
+
+\runsubsection{Other courses}
+%% \descript{| Bachelor's in Mathematics}
+\location{}
+\begin{tightemize}
+  %\item T
+\item Kaggle: pandas, machine learning (basic, intermediate and explainability)
+\end{tightemize}
+
+%\location{ Cum. GPA: 3.7 / 4.0 }
+
+\sectionsep
+\runsection{Visualization projects}
+%% \runsubsection{3D visualization}
+\descript{| python | javaScript | three.js}
+\location{}
+%% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\sectionsep
+\item  \href{https://emersonjleon.pythonanywhere.com/visualization}{Spline surfaces}: Some surfaces generated by piecewise polynomial equations for its coordinates. Software experiments for research in spline theory \location{\href{https://emersonjleon.pythonanywhere.com/visual}{link}} 
+%% \end{tightemize}
+
+
+%% \location{3D chip firing}
+%% \begin{tightemize}
+\item 3D chip firing: Code that generates three-dimensional chip firing configurations and help to visualize them online, with various customizable parameters \location{\href{https://emersonjleon.pythonanywhere.com/chipfiring}{link}} 
+\end{tightemize}
+%% \sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Awards} 
+% \begin{tabular}{rll}
+% 2020	     & Finalist & Lorem Ipsum\\
+% 2018	     & $2^{nd}$ & Dolor Sit Amet\\
+% 2015	     & Finalist  & Cras posuere\\
+% \\
+% \end{tabular}
+% \sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.25\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Proficient:}
+python \textbullet{} javaScript  \textbullet{} html \textbullet{} css \textbullet{} sagemath \textbullet{} \LaTeX\ \\ 
+%\sectionsep
+%% \location{Experienced:}
+%%  \textbullet{} CSS \textbullet{}  C++  \\
+%% \sectionsep
+\location{Familiar:}
+ C++ \textbullet{}  matlab \textbullet{} Julia %\textbullet{} polymake \\
+% R
+ \sectionsep
+
+ \subsection{Libraries/Frameworks}
+%% \sectionsep
+flask \textbullet{} django \textbullet{} three.js \textbullet{} openAI \textbullet{} pandas \textbullet{} sklearn  \textbullet{} matPlotLib \textbullet{} pygame \textbullet{}   sqlAlchemy \textbullet{}  node.js \\
+\sectionsep
+%% \sectionsep
+%% \subsection{Tools/Platforms}
+%% \sectionsep
+%% Git \textbullet{} Gulp \textbullet{} Webpack \textbullet{} Heroku    \\ Wordpress \textbullet{} Docker \\
+\subsection{Languages}
+%\sectionsep
+Spanish \textbullet{} English \textbullet{} German 
+
+%% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Publications
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Publications}
+
+
+\textbullet{} \href{https://arxiv.org/abs/1804.00208}{Binomial Inequalities of Chromatic, Flow, and Ehrhart Polynomials}, with  Matthias Beck \location{Disc. Comp. Geometry, 2021}
+
+\textbullet{} \href{https://arxiv.org/abs/1511.02904}{Spaces of Convex n-Partitions}
+\location{New trends in intuitive Geometry, 2017}
+
+\textbullet{} \href{https://arxiv.org/abs/2111.13745}{Combinatorial Relationship Between Finite Fields and Fixed Points of Functions Going Up and Down} \location{preprint, 2023}
+
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\subsection{Silver+2 Bronce Medals}
+\descript{International Math Olympiad IMO}
+\location{Rumania 1999 |  Korea 2000 |  USA 2001 }
+
+
+\subsection{Gold Medal}
+\descript{Iberoamerican Math Olympiad} First place
+\location{Cuba  1999 }
+
+%% \location{ advisor: Günter M. Ziegler }
+
+%% \sectionsep
+%% \subsection{Universidad Nacional de Colombia, Bogotá}
+%% \descript{Bachelor's in Mathematics}
+%% \location{Jul 2001 | Sep 2006}
+%% School of Computing \\
+%% %\location{ Cum. GPA: 3.7 / 4.0 }
+%% \sectionsep
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     REFERENCES
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{References} 
+\href{https://serrano.academy/}{\textbf{Luis Serrano}, AI scientist, Serrano Academy}
+\begingroup
+\setbox0=\hbox{
+\includegraphics[scale=0.1,trim={0 1cm 0cm 0cm}]{icons/main/mail.png}\hspace{0.3cm} luisgui.serrano@gmail.com
+}
+\parbox{\wd0}{\box0}
+\endgroup
+%% \begingroup
+%% \setbox0=\hbox{
+%% \includegraphics[scale=0.1,trim={0 1.25cm -0.4cm 0cm}]{icons/main/phone.png}\hspace{0.3cm}+19999999999
+%% }
+%% \parbox{\wd0}{\box0}\endgroup
+\\
+
+\sectionsep
+\href{https://fardila.com/}{\textbf{Federico Ardila}}, Math Professor, San Francisco State University 
+\\
+\begingroup
+\setbox0=\hbox{
+\includegraphics[scale=0.1,trim={0 1cm 0cm 0cm}]{icons/main/mail.png}\hspace{0.3cm} federico@sfsu.edu 
+}
+\parbox{\wd0}{\box0}
+\endgroup
+%% \begingroup
+%% \setbox0=\hbox{
+%% \includegraphics[scale=0.1,trim={0 1.25cm -0.4cm 0cm}]{icons/main/phone.png}\hspace{0.3cm}+19999999999
+%% }
+%% \parbox{\wd0}{\box0}\endgroup
+\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Coursework}
+
+% \subsection{Graduate}
+% Graduate Algorithms \textbullet{}\\ 
+% Advanced Computer Architecture \textbullet{}\\ 
+% Operating Systems \textbullet{}\\ 
+% Artificial Intelligence \textbullet{}\\
+% Visualization For Scientific Data \\
+% \sectionsep
+
+% \subsection{Undergraduate}
+
+% Database Management Systems \textbullet{}\\
+% Object Oriented Analysis and Design \textbullet{}\\
+% Artificial Intelligence and Expert Systems \textbullet{}\\
+% Scripting Languages and Web Tech \textbullet{}\\
+% Software Engineering \\
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
+
