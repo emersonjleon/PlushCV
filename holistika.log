@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2024.3.15)  13 MAY 2024 23:32
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2023.10.3)  29 NOV 2023 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**EmersonLeonCV.tex
-(./EmersonLeonCV.tex
+**holistika.tex
+(./holistika.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (./PlushCV.cls
 Document Class: plushcv 2021/11/30 CV class
@@ -443,34 +443,34 @@ s
 \f@nch@O@olf=\skip74
 \f@nch@O@orf=\skip75
 )
-(./EmersonLeonCV.aux)
-\openout1 = `EmersonLeonCV.aux'.
+(./holistika.aux)
+\openout1 = `holistika.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-2.
+0.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -507,7 +507,7 @@ LaTeX Font Info:    ... okay on input line 42.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 42.
+Package hyperref Info: Link coloring OFF on input line 40.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -519,85 +519,85 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count282
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
 
-(./EmersonLeonCV.out) (./EmersonLeonCV.out)
+(./holistika.out) (./holistika.out)
 \@outlinefile=\write3
-\openout3 = `EmersonLeonCV.out'.
+\openout3 = `holistika.out'.
 
-Package ragged2e Info: ABD: executing \RaggedRight on input line 42.
-
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 42.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 40.
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 40.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 42.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 42.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 42.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 42.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 42.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 42.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 42.
-LaTeX Font Info:    Redeclaring math accent \check on input line 42.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 42.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 42.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 42.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 42.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 40.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 40.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 40.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 40.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 40.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 40.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 40.
+LaTeX Font Info:    Redeclaring math accent \check on input line 40.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 40.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 40.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 40.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 40.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 42.
+(Font)              `operators' in the math version `normal' on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/inter-light(0)/m/n on input line 42.
+(Font)                  OT1/cmr/m/n --> TU/inter-light(0)/m/n on input line 40.
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 42.
+(Font)              `operators' in the math version `bold' on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/inter-light(0)/m/n on input line 42
+(Font)                  OT1/cmr/bx/n --> TU/inter-light(0)/m/n on input line 40
 .
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/inter-light(0)/m/n --> TU/inter-light(0)/m/n on inpu
-t line 42.
+t line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/inter-light(0)/m/it on input line 4
-2.
+0.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/inter-light(0)/b/n on input line 42
+(Font)                  OT1/cmr/bx/n --> TU/inter-light(0)/b/n on input line 40
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/inter-light(1)/m/n on input line 42
+(Font)                  OT1/cmss/m/n --> TU/inter-light(1)/m/n on input line 40
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 42.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/inter-light(0)/m/n --> TU/inter-light(0)/b/n on inpu
-t line 42.
+t line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/inter-light(0)/b/it on input line 
-42.
+40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/inter-light(1)/b/n on input line 4
-2.
+0.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 42.
- ABD: EveryShipout initializing macros
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 40.
+
+ABD: EveryShipout initializing macros
 isodate: babel.sty, (n)german.sty have not been loaded
 
 Package fontspec Info: Font family 'sourcesanspro-SemiBold(0)' created for
@@ -653,25 +653,25 @@ File: icons/main/phone.png Graphic file (type bmp)
 
 LaTeX Font Warning: Font shape `TU/inter-light(0)/m/n' in size <7> not availabl
 e
-(Font)              size <9.5> substituted on input line 50.
+(Font)              size <9.5> substituted on input line 48.
 
 
 LaTeX Font Warning: Font shape `TU/inter-light(0)/m/n' in size <5> not availabl
 e
-(Font)              size <9.5> substituted on input line 50.
+(Font)              size <9.5> substituted on input line 48.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 50.
+(Font)              <7> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 50.
+(Font)              <5> on input line 48.
 
-Overfull \hbox (12.65169pt too wide) in paragraph at lines 50--50
+Overfull \hbox (18.65169pt too wide) in paragraph at lines 48--48
 []$[]$  
  []
 
 
 LaTeX Font Warning: Font shape `TU/inter-light(0)/m/sc' undefined
-(Font)              using `TU/inter-light(0)/m/n' instead on input line 70.
+(Font)              using `TU/inter-light(0)/m/n' instead on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
@@ -680,70 +680,70 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 LaTeX Font Warning: Font shape `TU/sourcesanspro-SemiBold(0)/b/n' undefined
 (Font)              using `TU/sourcesanspro-SemiBold(0)/m/n' instead on input l
-ine 71.
+ine 72.
 
 
 LaTeX Font Warning: Font shape `TU/inter-light(0)/m/n' in size <12> not availab
 le
-(Font)              size <9.5> substituted on input line 71.
+(Font)              size <9.5> substituted on input line 72.
 
 
 LaTeX Font Warning: Font shape `TU/inter-light(0)/m/sc' in size <12> not availa
 ble
-(Font)              size <9.5> substituted on input line 72.
+(Font)              size <9.5> substituted on input line 73.
 
 
 LaTeX Font Warning: Font shape `TU/inter-light(0)/m/n' in size <8> not availabl
 e
-(Font)              size <9.5> substituted on input line 73.
-
-
-LaTeX Font Warning: Font shape `TU/inter-light(0)/m/it' undefined
-(Font)              using `TU/inter-light(0)/m/n' instead on input line 77.
+(Font)              size <9.5> substituted on input line 74.
 
 
 LaTeX Font Warning: Font shape `TU/inter-light(0)/m/sc' in size <8> not availab
 le
-(Font)              size <9.5> substituted on input line 134.
+(Font)              size <9.5> substituted on input line 169.
 
 
 LaTeX Font Warning: Font shape `TU/inter-light(0)/m/sc' in size <10> not availa
 ble
-(Font)              size <9.5> substituted on input line 211.
+(Font)              size <9.5> substituted on input line 250.
 
 
-LaTeX Font Warning: Font shape `TU/inter-light(0)/m/n' in size <6> not availabl
-e
-(Font)              size <9.5> substituted on input line 214.
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+|[]\TU/sourcesanspro-SemiBold(0)/b/n/12 MEDALLAS DE PLATA+2
+ []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 214.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 214.
 
 LaTeX Font Warning: Font shape `TU/inter-light(0)/b/n' in size <8> not availabl
 e
-(Font)              size <9.5> substituted on input line 285.
+(Font)              size <9.5> substituted on input line 316.
 
-File: icons/main/mail.png Graphic file (type bmp)
-<icons/main/mail.png>
+File: icons/main/phone.png Graphic file (type bmp)
+<icons/main/phone.png>
 
-Overfull \hbox (4.0871pt too wide) in paragraph at lines 285--292
-[]$  
- []
+LaTeX Font Warning: Font shape `TU/inter-light(0)/m/n' in size <6> not availabl
+e
+(Font)              size <9.5> substituted on input line 322.
 
-File: icons/main/mail.png Graphic file (type bmp)
-<icons/main/mail.png>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 343.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 322.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 322.
+
+Package hyperref Warning: Suppressing link with empty target on input line 333.
+
+
+File: icons/main/phone.png Graphic file (type bmp)
+<icons/main/phone.png>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 372.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 343.
- (./EmersonLeonCV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 343.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 343.
-Package rerunfilecheck Info: File `EmersonLeonCV.out' has not changed.
-(rerunfilecheck)             Checksum: EA80F63E88E0413868CD499779DD7C43;591.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 372.
+ (./holistika.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 372.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 372.
+Package rerunfilecheck Info: File `holistika.out' has not changed.
+(rerunfilecheck)             Checksum: 6270CD3B79E15C0C1C93826390DA1A21;557.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -752,15 +752,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 343.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 372.
  ) 
 Here is how much of TeX's memory you used:
- 13323 strings out of 481804
- 252022 string characters out of 5937876
- 572713 words of memory out of 5000000
- 30098 multiletter control sequences out of 15000+600000
+ 13322 strings out of 481804
+ 251932 string characters out of 5937876
+ 568637 words of memory out of 5000000
+ 30097 multiletter control sequences out of 15000+600000
  535891 words of font info for 74 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 54i,11n,120p,506b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,11n,120p,459b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on EmersonLeonCV.pdf (1 page).
+Output written on holistika.pdf (1 page).
